@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="dist/css/todo-app.bundle.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="py-3 text-center bg-dark text-white">
+                <h3>Todo App</h3>
+            </header>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <div class="card card-body">
+                            <form id="todoForm">
+                                <div class="form-group">
+                                    <label>Title</label>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" id="inputTodo">
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn btn-primary" id="addTodo">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 border-right">
+                        <div class="todo-area">
+                            <h4>Todo(s)</h4>
+                            <div id="remainingTodos">
+                                <ul class='list-group'>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="todo-area">
+                            <h4>Completed Todo(s)</h4>
+                            <div id="completedTodos">
+                                    <ul class='list-group'>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="dist/js/common.bundle.js"></script>
+        <script src="dist/js/todo-app.bundle.js"></script>
+    </body>
+</html>

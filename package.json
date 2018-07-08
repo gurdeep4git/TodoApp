@@ -1,0 +1,35 @@
+{
+  "name": "TodoApp",
+  "version": "1.0.0",
+  "description": "Dynamic FormBuilderApp",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "4.7.0",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.1.0",
+    "@types/handlebars": "^4.0.38",
+    "@types/jquery": "^3.3.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.10",
+    "exports-loader": "^0.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "handlebars-loader": "^1.7.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "ts-loader": "3.5.0",
+    "typescript": "^2.8.3",
+    "url-loader": "^1.0.1",
+    "webpack": "3.10.0"
+  }
+}
